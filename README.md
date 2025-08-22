@@ -1,17 +1,17 @@
 
-# Python Study  
+# Python Study 
 
 This repository is using to store all examples projects about study Python course.
 
 
 
 
-## Authors
+## Authors  💻
 
 - [@andredearaujo2008](https://www.github.com/andredearaujo)
 
 
-## Support 
+## Support 🧰
 For support, email andredearaujo2007@gmail.com or join Github
 
 
