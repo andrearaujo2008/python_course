@@ -1,16 +1,14 @@
-# Put the names
+# Ask the user to input 5 names
+names = []
+for i in range(5):
+    name = input("Enter a name: ")
+    names.append(name)
 
-a = input("Type the first name:")
-b = input("Type the second name:")
-c = input("Type the third name:")
-d = input("Type the fourth name:")
-e = input("Type the fifth name:")
-names = a, b, c, d, e
-sorted_name = sorted(names)
+# print the list in revest order
+print("The name is:", names[::-1])
 
-print("The name is:", sorted_name[::-1])
-
-if "Alice" in sorted_name:
+# Check if "Alice" is in the list
+if "Alice" in names:
     print("Alice is in the list")
 else:
     print("Alice is not in the list")
