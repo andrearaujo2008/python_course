@@ -17,4 +17,14 @@ def transform(text: str) -> str:
 
 # Example usage
 user_input = input("Type your sequence: ")
-print("The answer will be: ", transform(user_input))
+
+resulted = transform(user_input)
+
+print(f"The answer will be: {resulted}")
+
+
+# Reverse text
+test = resulted[::-1]
+
+# show the result
+print(f"Reversed: {test}")
