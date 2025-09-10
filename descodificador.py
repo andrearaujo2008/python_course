@@ -18,6 +18,8 @@ def transform(text: str) -> str:
 # Example usage
 user_input = input("Type your sequence: ")
 
+# Store the result
+
 resulted = transform(user_input)
 
 print(f"The answer will be: {resulted}")
