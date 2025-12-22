@@ -51,6 +51,9 @@ coverage.xml
 .pytest_cache/
 cover/
 
+#Some files will not go to git
+testes.py
+
 # Translations
 *.mo
 *.pot
