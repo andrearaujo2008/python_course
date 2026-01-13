@@ -1,13 +1,17 @@
+# Programa que valida se seu nif é valido ou nao
 
-qtd = 0
+import re  # Libary to use regex
+qtd = 0  # Initialize count
 
-while qtd < 9:
+# Condition while if number to different 9
+while qtd != 9:
     numero = input("Insira o numero do nif: ")
-    # numero = (r"\d{3}.\d{3}.\d{3}")
-    qtde_num = len(numero)
 
-    if qtde_num < 9:
-        print("Numero do nif digitado nao esta correto, por digite novamente!")
+    qtd = len(numero)  # amount the numbers
+# Condition if validade the number inserted by user is correct
 
+# Standarlize the formatted using regex
+standart = re.sub(r"(\d{3})(\d{3})(\d{3})", r"\1.\2.\3", numero)
 
-print(f"Numero do nif correto {numero}")
+# Resulting xxx.xxx.xxx
+print(f"Seu Numero do nif esta correto: {standart}")
