@@ -1,5 +1,7 @@
 # Program will display 5 words per line
 
+import re
+
 qtd = 0
 
 while qtd < 5:
@@ -11,8 +13,12 @@ while qtd < 5:
 
     qtd = len(palavras)  # Count how many words exist on the phrase
 
-    if qtd < 5:
+    if qtd < 5:  # Conditional if words have less than 5
 
         print("Your phrase must have at least 5 words. Please write again!")
 
-print(f"A quantidade de palavras e: {qtd}")
+# Case the words is more 5 words it will separate each line
+resultado = re.sub(r"\s+", "\n", frase)
+
+# Display the phrase
+print(resultado)
