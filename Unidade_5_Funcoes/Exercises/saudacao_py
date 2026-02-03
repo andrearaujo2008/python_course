@@ -1,0 +1,9 @@
+
+# Criacao da funcao
+def saudacao(nome, mensagem="Olá"):
+    print(f"{mensagem}, {nome}!")
+
+
+# Será a saída da mensagem feita na funcao.
+saudacao("Ricardo")
+saudacao("Ricardo", "Bom dia")

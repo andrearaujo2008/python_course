@@ -1,0 +1,12 @@
+
+# definindo uma função com parâmetro opcional
+def calcula_preco(preco, desconto=0, taxa=0):
+    total = preco - (desconto + taxa)
+    return total
+
+
+# Defina o valores a ser mostrado na funcao
+calcula_preco(100)
+calcula_preco(100, desconto=10)
+calcula_preco(100, taxa=5)
+calcula_preco(100, desconto=10, taxa=5)

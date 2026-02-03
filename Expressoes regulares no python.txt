@@ -1,0 +1,28 @@
+Expressoes regulares no python
+Em Python, o módulo re é usado para trabalhar com expressões regulares.
+
+Perguntas (Questions)
+Porque em numeros telefones e endereços a gente que usar expressões regulares e não usar caracteres?
+
+Why do I feel asleep only when I'm studying?
+
+
+O que aprendi no dia 26/12/2025 Python
+Expressoes regulares
+Metodo sub
+Metodo search
+Metodo match
+Metodo fullmatch
+Metodo findall
+/b na expressao regular e um espaço ou um delimitador
+/d
+/r
+/s é um espaço em branco
+import re -> Você deve usar essa biblioteca, quando querer usar expressões regulares e quando for trabalhar com buscas e outras coisas com string.
+import datetime 
+timedelta
+
+-----------------------------------------------------------
+
+There is an important tip
+You must not create filename with the same name the library
