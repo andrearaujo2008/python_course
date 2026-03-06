@@ -1,4 +1,4 @@
- #Acessando um elemento a partir do final uma lista
+#Acessando um elemento a partir do final uma lista
 lista = [1, 2, 3, 4, 5]
 print(lista[-1])  # Saida 5
 print(lista[-2])  # Saida 4
