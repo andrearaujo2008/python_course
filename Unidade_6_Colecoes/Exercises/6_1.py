@@ -2,5 +2,5 @@
 
 i = list(range(1, 21))
 
-quadrados = [x**2 for x in i]
+quadrados = [x**2 for x in i if x % 2 == 0]
 print(quadrados)
